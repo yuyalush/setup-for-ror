@@ -1,0 +1,33 @@
+niftycloud:
+  access_key: ACCECC_KEY
+  secret_key: SECRET_KEY
+
+dozens:
+  api_key: API_KEY
+  dznsid: USER_ID
+
+options_for_run_instances:
+  key_name: SSH_KEY_NAME
+  security_group:
+    - Firewall(require_port22,8080)
+  instance_type: small
+  monitoring_enabled: true
+  disable_api_termination: false
+  accounting_type: 2
+  admin: admin
+  password: password
+  ip_type: dynamic # or static
+
+ssh:
+  user: root
+  sh_url: https://raw.github.com/gist/1176137/031a732d8ba8aa00a02982be6f8815b1ac95b03a/setup.ubu.sh
+  key_file_path:
+    - ~/your_private.pem
+  passphrase: PEM_PASSPHRASE
+
+options_for_create_record:
+  domain: YOURDOAMIN.COM
+  type: A
+  prio:
+  ttl: 7200
+
