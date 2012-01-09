@@ -20,7 +20,7 @@ options_for_run_instances:
 
 ssh:
   user: root
-  sh_url: https://raw.github.com/gist/1176137/031a732d8ba8aa00a02982be6f8815b1ac95b03a/setup.ubu.sh
+  sh_url: https://raw.github.com/yuyalush/setup-for-ror/master/setup.ror3_testapp.sh
   key_file_path:
     - ~/your_private.pem
   passphrase: PEM_PASSPHRASE
