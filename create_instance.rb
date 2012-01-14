@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 require 'rubygems'
-require 'nifty'
+require 'NIFTY'
 require 'dozens'
 require 'net/ssh'
 require 'yaml'
